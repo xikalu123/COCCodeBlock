@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		05EC49FA42C987882BAC8C4BD73A0F11 /* NSObject+PrintRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = A260CD9D0EBAC09733AF70260EE9FB0D /* NSObject+PrintRetain.m */; };
+		0A9832732850C49F00126D5B /* NSString+ChenRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9832712850C49F00126D5B /* NSString+ChenRuntime.h */; };
+		0A9832742850C49F00126D5B /* NSString+ChenRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9832722850C49F00126D5B /* NSString+ChenRuntime.m */; };
+		0A9832772850C52A00126D5B /* ChenRuntimeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9832752850C52A00126D5B /* ChenRuntimeConstants.h */; };
+		0A9832782850C52A00126D5B /* ChenRuntimeConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9832762850C52A00126D5B /* ChenRuntimeConstants.m */; };
 		1159F2CF8BE078420E954DAF3DF49DA5 /* handleInterceptorTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B89607E44516B2EFA78FE8E1EC4D026 /* handleInterceptorTwo.m */; };
 		219125531614B9FA674F9AE48F7F72EC /* handleInterceptorTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 19269A5ED80580EBABCEC254274CA01C /* handleInterceptorTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24C1BE6042A2FFF4BB9294AA7C4FC664 /* CHHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 087F8E0CE39FCA825FF6E926FA754F78 /* CHHeapEnumerator.m */; };
@@ -79,6 +83,10 @@
 
 /* Begin PBXFileReference section */
 		087F8E0CE39FCA825FF6E926FA754F78 /* CHHeapEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHHeapEnumerator.m; sourceTree = "<group>"; };
+		0A9832712850C49F00126D5B /* NSString+ChenRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ChenRuntime.h"; sourceTree = "<group>"; };
+		0A9832722850C49F00126D5B /* NSString+ChenRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ChenRuntime.m"; sourceTree = "<group>"; };
+		0A9832752850C52A00126D5B /* ChenRuntimeConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChenRuntimeConstants.h; sourceTree = "<group>"; };
+		0A9832762850C52A00126D5B /* ChenRuntimeConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChenRuntimeConstants.m; sourceTree = "<group>"; };
 		0B89607E44516B2EFA78FE8E1EC4D026 /* handleInterceptorTwo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = handleInterceptorTwo.m; sourceTree = "<group>"; };
 		134541C00731119FBB35ED557B8516F9 /* ClockFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
 		16ADCB5F7ECFC2ED6FFBD188BCA86168 /* CusLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CusLayer.m; sourceTree = "<group>"; };
@@ -91,13 +99,13 @@
 		3A992E1CBA522B212234107569F1A660 /* TestMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestMacro.h; sourceTree = "<group>"; };
 		3DC0EC488A38F9E6C02F407C5B0A3302 /* TestMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestMacro.m; sourceTree = "<group>"; };
 		4084C834C3B39B54CAAEDA4F465B9937 /* CusLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CusLayer.h; sourceTree = "<group>"; };
-		4139BF6B6E0C70F6B79F85127F148D4E /* Pods_COCCodeBlock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_COCCodeBlock_Example.framework; path = "Pods-COCCodeBlock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4139BF6B6E0C70F6B79F85127F148D4E /* Pods_COCCodeBlock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COCCodeBlock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		463A8740C9319654A6275A7C18A0454C /* NSObject+ChBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChBlock.h"; sourceTree = "<group>"; };
-		476D728945BB3D7A094A66E963B6FBBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4EC630AF594A12EB74C017C55C157B7C /* Pods_COCCodeBlock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_COCCodeBlock_Tests.framework; path = "Pods-COCCodeBlock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476D728945BB3D7A094A66E963B6FBBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4EC630AF594A12EB74C017C55C157B7C /* Pods_COCCodeBlock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_COCCodeBlock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		565564F4601A6E9D9CFC6025F86D00B2 /* ChenObjectRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenObjectRef.h; sourceTree = "<group>"; };
 		595E679ECEA5CFAE448D19636D2C9ABD /* handleInterceptorOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handleInterceptorOne.h; sourceTree = "<group>"; };
-		5FA3E6890415D4E4C8012660798797D8 /* COCCodeBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = COCCodeBlock.framework; path = COCCodeBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA3E6890415D4E4C8012660798797D8 /* COCCodeBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = COCCodeBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63414BBB832ADF77174D24D09D4E166F /* Pods-COCCodeBlock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-COCCodeBlock_Example.modulemap"; sourceTree = "<group>"; };
 		63D010ED9D2CDFB956EEF94014498956 /* Pods-COCCodeBlock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		69436E594A2782AACF607B4EF26AD3BA /* handleInterceptorThree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = handleInterceptorThree.m; sourceTree = "<group>"; };
@@ -108,7 +116,7 @@
 		75AAC79B0CAC89BBF17984B91A983B99 /* NSObject+ChBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ChBlock.m"; sourceTree = "<group>"; };
 		76CEC09A7F6763F2637D9BA088409B13 /* handleInterceptorOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = handleInterceptorOne.m; sourceTree = "<group>"; };
 		7701D54EEFC8A9513DC94F0AE2F6BED2 /* Pods-COCCodeBlock_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-COCCodeBlock_Tests.modulemap"; sourceTree = "<group>"; };
-		785FD63D8AFF250F5208124CC68935A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		785FD63D8AFF250F5208124CC68935A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7AD27284F017DE5FA0F8166867C583D7 /* Pods-COCCodeBlock_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-COCCodeBlock_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E400BBFB8249BB4290E703D202FE5AC /* LayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
 		8A1449680B8911AD2A6239A112C360CA /* ChenKeyFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenKeyFrameAnimation.h; sourceTree = "<group>"; };
@@ -116,7 +124,7 @@
 		915B62E82AD3600DFD23C311E2BFFC93 /* SyncMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SyncMutableDictionary.m; sourceTree = "<group>"; };
 		92FBFA322494E5C11AE711CFB8603AFC /* Pods-COCCodeBlock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-COCCodeBlock_Example-dummy.m"; sourceTree = "<group>"; };
 		9D11FF54D54125E0B59AB47A1AE6EDF5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = COCCodeBlock/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E1CF914AB4633A588377098328A99C /* AsyncTestTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AsyncTestTableViewController.h; sourceTree = "<group>"; };
 		A0E94F628AA0C3EF287B5FD1583FF988 /* handleInterceptorThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handleInterceptorThree.h; sourceTree = "<group>"; };
 		A1DC259E530384098F89542ECCBE229F /* Interceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Interceptor.m; sourceTree = "<group>"; };
@@ -141,9 +149,9 @@
 		DAFC386B7F28EB6CF678A76EE87B8C44 /* Pods-COCCodeBlock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-COCCodeBlock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DBFA44C0E5A0CCF3E6F58605F069341A /* COCCodeBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "COCCodeBlock-dummy.m"; sourceTree = "<group>"; };
 		DF76AD536605D7A5B9016FA830542B41 /* Pods-COCCodeBlock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-COCCodeBlock_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ChenObjcUtility.mm; sourceTree = "<group>"; };
+		E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ChenObjcUtility.mm; sourceTree = "<group>"; };
 		E109239098999635EE112DC3578F1251 /* COCCodeBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = COCCodeBlock.modulemap; sourceTree = "<group>"; };
-		E70B6BD58C2D5D08100F29D67E39ED67 /* COCCodeBlock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = COCCodeBlock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E70B6BD58C2D5D08100F29D67E39ED67 /* COCCodeBlock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = COCCodeBlock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E70CD4784264D74151D33CA2B0FD715C /* Pods-COCCodeBlock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ECB325E51064DED1698379463CFFEDC3 /* COCCodeBlock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "COCCodeBlock-Info.plist"; sourceTree = "<group>"; };
 		F32EE9E64B3A24B8D10453F0BC591ED5 /* COCCodeBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = COCCodeBlock.release.xcconfig; sourceTree = "<group>"; };
@@ -188,7 +196,6 @@
 				CF08A0E031817EFEE64A1DFE6630E44D /* ClockFace.h */,
 				134541C00731119FBB35ED557B8516F9 /* ClockFace.m */,
 			);
-			name = CustomCALayer;
 			path = CustomCALayer;
 			sourceTree = "<group>";
 		};
@@ -263,7 +270,6 @@
 				7257E06C63A7A4A50F947A41F8F3C95C /* UIView+ChenPopAnimation.h */,
 				BF8FBDBB91EA254C3AF04ECF1830F086 /* UIView+ChenPopAnimation.m */,
 			);
-			name = popAnimationBlock;
 			path = popAnimationBlock;
 			sourceTree = "<group>";
 		};
@@ -326,7 +332,6 @@
 				8A1449680B8911AD2A6239A112C360CA /* ChenKeyFrameAnimation.h */,
 				BC546D85BFBAB18AC0FB2CA588827D76 /* ChenKeyFrameAnimation.m */,
 			);
-			name = "Basic Animation";
 			path = "Basic Animation";
 			sourceTree = "<group>";
 		};
@@ -415,8 +420,11 @@
 				E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */,
 				2BC8747DC86FC0ED411128DC0FCC6EF5 /* ChenruntimeUtility.h */,
 				B1CA69586565EBC77F2956EF73E21083 /* ChenruntimeUtility.m */,
+				0A9832712850C49F00126D5B /* NSString+ChenRuntime.h */,
+				0A9832722850C49F00126D5B /* NSString+ChenRuntime.m */,
+				0A9832752850C52A00126D5B /* ChenRuntimeConstants.h */,
+				0A9832762850C52A00126D5B /* ChenRuntimeConstants.m */,
 			);
-			name = util;
 			path = util;
 			sourceTree = "<group>";
 		};
@@ -473,8 +481,10 @@
 				BC6627D8A22CE8EA8A52D3382C1AF48D /* AsyncTestTableViewController.h in Headers */,
 				EBD40CAF44656D865EAA0077EB72036E /* ChenKeyFrameAnimation.h in Headers */,
 				709E39917CED17E95E64C0723530E3DA /* ChenObjcSend.h in Headers */,
+				0A9832772850C52A00126D5B /* ChenRuntimeConstants.h in Headers */,
 				298B1FCDAAEC20107FBE0F1A9D5C1570 /* ChenObjcUtility.h in Headers */,
 				7AC865D3AB907D816072B8862AB123B1 /* ChenObjectRef.h in Headers */,
+				0A9832732850C49F00126D5B /* NSString+ChenRuntime.h in Headers */,
 				9058D573817D0AD010003E6A0F3CA3C4 /* ChenruntimeUtility.h in Headers */,
 				D8E2B5CDB91F0A9A17AF427B71C96A24 /* ChenTestOperation.h in Headers */,
 				6BA0FB4CAFA378F4D08360393C0EE697 /* CHHeapEnumerator.h in Headers */,
@@ -659,6 +669,8 @@
 				4E7ECFEDDDD6AD66DF9BB9ABDAC77CF4 /* handleInterceptorThree.m in Sources */,
 				1159F2CF8BE078420E954DAF3DF49DA5 /* handleInterceptorTwo.m in Sources */,
 				DBBD71D3D6DAE8C4440E84EA5A7C61EC /* Interceptor.m in Sources */,
+				0A9832742850C49F00126D5B /* NSString+ChenRuntime.m in Sources */,
+				0A9832782850C52A00126D5B /* ChenRuntimeConstants.m in Sources */,
 				D4AC6EC01C624CB33F04D49DFC2D8DB8 /* LayerView.m in Sources */,
 				CB4BA28D32D6DAB9FE0C2D811E9A1B0C /* NSObject+ChBlock.m in Sources */,
 				05EC49FA42C987882BAC8C4BD73A0F11 /* NSObject+PrintRetain.m in Sources */,
@@ -936,8 +948,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

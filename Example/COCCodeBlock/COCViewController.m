@@ -27,6 +27,8 @@
 @interface COCViewController ()
 @property (strong, nonatomic) UIButton *btn;
 @property (copy) dispatch_block_t test;
+
+@property (strong) NSObject *obj1;
 @end
 
 @implementation COCViewController
@@ -40,7 +42,7 @@
     [self.view addSubview:self.btn];
     
     
-    id obj1 = [NSObject new];
+    self.obj1 = [NSObject new];
     id obj2 = [NSObject new];
     id obj3 = [NSObject new];
     NSDictionary *obj4 = [NSDictionary dictionaryWithDictionary:@{@"k1":@"111",@"k2":@"222"}];
@@ -51,13 +53,13 @@
 
     self.test = ^(){
 
-        NSLog(@"obj1 = %@ , obj2 = %@ ,obj3 = %@,obj4 = %@,self = %@",obj1,obj2,obj3,obj4, weak);
+        NSLog(@"obj1 = %@ , obj2 = %@ ,obj3 = %@,obj4 = %@,self = %@",self.obj1,obj2,obj3,obj4, weak);
 
         NSLog(@"sss====%d",a);
     };
-    showBlockExtendedLayout(self.test);
     
-//    [CHHeapEnumerator enumerateLiveObjects];
+    NSArray<ChenObjectRef *> *references = [CHHeapEnumerator objectsWithReferencesToObject:self.obj1 retained:NO];
+    NSLog(@"ddd ========= %@",references);
 }
 
 

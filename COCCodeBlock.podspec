@@ -30,6 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  s.requires_arc     = true
   s.source_files     = "COCCodeBlock/Classes/**/*.{h,c,m,mm}"
   s.library = 'stdc++'
   s.xcconfig = {
