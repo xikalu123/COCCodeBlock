@@ -125,9 +125,9 @@ static void range_callback(task_t task, void *context, unsigned type, vm_range_t
 }
 
 
-+ (void)findObjectReferenceToObject:(id)object
-                          tryObject:(id)tryObject
-                        actualClass:(Class)actualClass
++ (void)findObjectReferenceToObject:(__unsafe_unretained id  _Nonnull)object
+                          tryObject:(__unsafe_unretained id  _Nonnull)tryObject
+                        actualClass:(__unsafe_unretained Class)actualClass
                           instances:(NSMutableArray<ChenObjectRef *> *)instances
                            retained:(BOOL)retain {
     Class tryClass = actualClass;
@@ -157,12 +157,12 @@ static void range_callback(task_t task, void *context, unsigned type, vm_range_t
     }
 }
 
-+ (void)findBlockReferenceToObject:(id)object
-                         tryObject:(id)tryObject
++ (void)findBlockReferenceToObject:(__unsafe_unretained id  _Nonnull)object
+                         tryObject:(__unsafe_unretained id  _Nonnull)tryObject
                        actualClass:(Class)actualClass
                          instances:(NSMutableArray<ChenObjectRef *> *)instances
                           retained:(BOOL)retain {
-    id block = tryObject;
+    __unsafe_unretained id block = tryObject;
     //只关注分配在堆上的block
     if (strcmp("__NSMallocBlock__", object_getClassName(block)) != 0)  {
         return;
@@ -171,7 +171,6 @@ static void range_callback(task_t task, void *context, unsigned type, vm_range_t
     static int32_t BLOCK_HAS_COPY_DISPOSE = (1<<25);//compiler
     static int32_t BLOCK_HAS_EXTENDED_LAYOUT = (1<<31);//compiler
     static int32_t BLOCK_DEALLOCATING =   (0x0001) ; //runtime  标志当前block是否正在销毁中。这个值会在运行时被修改
-    static int32_t BLOCK_NEEDS_FREE =     (1 << 24); // runtime block需要被销毁
     static int32_t BLOCK_USE_STRET =      (1 << 29); // compiler: undefined if !BLOCK_HAS_SIGNATURE
     static int32_t BLOCK_HAS_CTOR =          (1 << 26); // compiler block中有C++的代码
     

@@ -58,6 +58,7 @@
         NSLog(@"sss====%d",a);
     };
     
+    
     NSArray<ChenObjectRef *> *references = [CHHeapEnumerator objectsWithReferencesToObject:self.obj1 retained:NO];
     NSLog(@"ddd ========= %@",references);
 }
