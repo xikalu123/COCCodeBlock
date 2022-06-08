@@ -50,7 +50,7 @@ extern "C" {
 //////////////////////////////////////
 // originally _objc_isTaggedPointer //
 //////////////////////////////////////
-NS_INLINE BOOL flex_isTaggedPointer(const void *ptr)  {
+NS_INLINE BOOL chen_isTaggedPointer(const void *ptr)  {
     #if OBJC_HAVE_TAGGED_POINTERS
         return ((uintptr_t)ptr & _OBJC_TAG_MASK) == _OBJC_TAG_MASK;
     #else
@@ -58,16 +58,16 @@ NS_INLINE BOOL flex_isTaggedPointer(const void *ptr)  {
     #endif
 }
 
-#define FLEXPointerIsTaggedPointer(obj) flex_isTaggedPointer((__bridge void *)obj)
+#define ChenPointerIsTaggedPointer(obj) Chen_isTaggedPointer((__bridge void *)obj)
 
-BOOL FLEXPointerIsReadable(const void * ptr);
+BOOL ChenPointerIsReadable(const void * ptr);
 
 /// @brief Assumes memory is valid and readable.
 /// @discussion objc-internal.h, objc-private.h, and objc-config.h
 /// https://blog.timac.org/2016/1124-testing-if-an-arbitrary-pointer-is-a-valid-objective-c-object/
 /// https://llvm.org/svn/llvm-project/lldb/trunk/examples/summaries/cocoa/objc_runtime.py
 /// https://blog.timac.org/2016/1124-testing-if-an-arbitrary-pointer-is-a-valid-objective-c-object/
-BOOL FLEXPointerIsValidObjcObject(const void * ptr);
+BOOL ChenPointerIsValidObjcObject(const void * ptr);
 
 #ifdef __cplusplus
 }
