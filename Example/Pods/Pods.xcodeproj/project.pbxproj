@@ -7,55 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1048451B26D69DB73C98C972EDA80597 /* ChenObjcSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 30100A0896BE918688569F66D24871DC /* ChenObjcSend.m */; };
-		11F66CE83230DE1766A9A94755785D2C /* ChenKeyFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC546D85BFBAB18AC0FB2CA588827D76 /* ChenKeyFrameAnimation.m */; };
+		05EC49FA42C987882BAC8C4BD73A0F11 /* NSObject+PrintRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = A260CD9D0EBAC09733AF70260EE9FB0D /* NSObject+PrintRetain.m */; };
+		1159F2CF8BE078420E954DAF3DF49DA5 /* handleInterceptorTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B89607E44516B2EFA78FE8E1EC4D026 /* handleInterceptorTwo.m */; };
 		219125531614B9FA674F9AE48F7F72EC /* handleInterceptorTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 19269A5ED80580EBABCEC254274CA01C /* handleInterceptorTwo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C1BE6042A2FFF4BB9294AA7C4FC664 /* CHHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 087F8E0CE39FCA825FF6E926FA754F78 /* CHHeapEnumerator.m */; };
 		25416C26842CA6FF301A4224F2ED4B29 /* COCCodeBlock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 697FF035D05F05CE22514DB9A1635C57 /* COCCodeBlock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2682AC0C1E4FBC6A79D012623C68136F /* UIView+ChenPopAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7257E06C63A7A4A50F947A41F8F3C95C /* UIView+ChenPopAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		298B1FCDAAEC20107FBE0F1A9D5C1570 /* ChenObjcUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F146B7DE8DD24BF104E5419AF617C045 /* ChenObjcUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298B1FCDAAEC20107FBE0F1A9D5C1570 /* ChenObjcUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A22192F9B9272496C801406F03154FD6 /* ChenObjcUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EC41E49164173421B6B7F64DF1B6507 /* handleInterceptorThree.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E94F628AA0C3EF287B5FD1583FF988 /* handleInterceptorThree.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		314C596D723D83FABFA5F627199C03F7 /* CustomMacroTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B64F9D6055595D40D7629E4A605651C5 /* CustomMacroTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3319A7C0E82E3F006D52A50C304D4373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34DF24D12E6417E82F64BECE31C94836 /* ChenObjcUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */; };
+		38FA4343C3C49C73FADCB19FF7CC5467 /* UIView+ChenPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FBDBB91EA254C3AF04ECF1830F086 /* UIView+ChenPopAnimation.m */; };
+		41AC73C25B794D91586838D16E77C3F8 /* AsyncTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35527D02EB15CE9DFA556F745ECEB181 /* AsyncTestTableViewController.m */; };
 		45327528F34BB394A99BC448AB07EDEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		49188BB0C81081089A15A57D8CD3CA65 /* NSObject+ChBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AAC79B0CAC89BBF17984B91A983B99 /* NSObject+ChBlock.m */; };
+		4E7ECFEDDDD6AD66DF9BB9ABDAC77CF4 /* handleInterceptorThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 69436E594A2782AACF607B4EF26AD3BA /* handleInterceptorThree.m */; };
+		54F0793847CB2AE498D84DC2F6D6A5D0 /* TestMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0EC488A38F9E6C02F407C5B0A3302 /* TestMacro.m */; };
+		552D2E1119F5D953933040B1749396E4 /* SyncMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B62E82AD3600DFD23C311E2BFFC93 /* SyncMutableDictionary.m */; };
 		57DD5E1417830C56705BFB672A2E8D63 /* LayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F814970111DAE8AC2D26139221233868 /* LayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		582C746DB0BC8DDF9417B1C4D336C588 /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 134541C00731119FBB35ED557B8516F9 /* ClockFace.m */; };
 		59D54009F2BCECA6EB9460D608F0D00F /* Interceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D659530A4C38899E8E211006D24262DB /* Interceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BA0FB4CAFA378F4D08360393C0EE697 /* CHHeapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AA2C07ACF87F45CD1A5DF6057666D6 /* CHHeapEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA0FB4CAFA378F4D08360393C0EE697 /* CHHeapEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F964F4440982DFD051066956C81571C2 /* CHHeapEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F7A69BE2ABE26697322C548D6B3F870 /* Pods-COCCodeBlock_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF55973F206722FDFA77553F73B750E /* Pods-COCCodeBlock_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		709E39917CED17E95E64C0723530E3DA /* ChenObjcSend.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9FBF5245B2F048A52C8E051811AF93 /* ChenObjcSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74DFFA1192CA917DDD5AF497FB8CEAAE /* ChenObjcUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FE643E38521E479D20235E99D7A5DD /* ChenObjcUtility.m */; };
-		759D805FC776C53DEA7B52E4D9841A19 /* AsyncTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35527D02EB15CE9DFA556F745ECEB181 /* AsyncTestTableViewController.m */; };
-		7AC865D3AB907D816072B8862AB123B1 /* ChenObjectRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 21484BE1047C10859234269A9AB53932 /* ChenObjectRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89921B1275C9A96D6C32457686AF9B9B /* ChenObjectRef.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B9AC3E3E3EB0DBAFEF403BAD16B6B8A /* ChenObjectRef.mm */; };
-		8B60DA55BA82549447C8DEE3F5295D71 /* ChenruntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF25626A2953F20C9171FCF3629D9FE /* ChenruntimeUtility.m */; };
-		9058D573817D0AD010003E6A0F3CA3C4 /* ChenruntimeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF56AC0DC0E53F3AB9BD239ADAE7B7D /* ChenruntimeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9479C7011CA5A5FFB24D9979C9205FC1 /* ChenTestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B03D02A516B632CB7207B6D449A2B994 /* ChenTestOperation.m */; };
-		96E5A760C6EE9E21F320EE360CB7DFCD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D11FF54D54125E0B59AB47A1AE6EDF5 /* ReplaceMe.m */; };
+		730497AAD8A0A73955CF3DD581C781D0 /* ClockFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 134541C00731119FBB35ED557B8516F9 /* ClockFace.m */; };
+		7AC865D3AB907D816072B8862AB123B1 /* ChenObjectRef.h in Headers */ = {isa = PBXBuildFile; fileRef = 565564F4601A6E9D9CFC6025F86D00B2 /* ChenObjectRef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B20B402F506EE51FF50171F8B9DFB1 /* ChenTestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B03D02A516B632CB7207B6D449A2B994 /* ChenTestOperation.m */; };
+		9058D573817D0AD010003E6A0F3CA3C4 /* ChenruntimeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC8747DC86FC0ED411128DC0FCC6EF5 /* ChenruntimeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9703AA90A25AF684826541FE37968A87 /* NSObject+PrintRetain.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E3EF6F49B97F21BDF7692190628209 /* NSObject+PrintRetain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A82B2F7C5806EA88B8147BF9B61E302 /* SyncMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA334A6F72F50150AB197E197754EE3 /* SyncMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BDBB82C8C3B79DAB47823CCA19940D5 /* CusLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ADCB5F7ECFC2ED6FFBD188BCA86168 /* CusLayer.m */; };
 		9F4BF3ED5FF8C53CE364E1CC07D1AD0B /* handleInterceptorOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 595E679ECEA5CFAE448D19636D2C9ABD /* handleInterceptorOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15D89FC71CEC26C99D09100635A0974 /* TestMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0EC488A38F9E6C02F407C5B0A3302 /* TestMacro.m */; };
-		A20D6A48FA704D02D5907B3BB0133265 /* SyncMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 915B62E82AD3600DFD23C311E2BFFC93 /* SyncMutableDictionary.m */; };
-		A4926C9100BD1DC79CD6B1B9914352E9 /* NSObject+PrintRetain.m in Sources */ = {isa = PBXBuildFile; fileRef = A260CD9D0EBAC09733AF70260EE9FB0D /* NSObject+PrintRetain.m */; };
-		B22B053053BACE6F8A124ABDC98D9675 /* CHHeapEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C021F2AD60ED7DE355F0338B923633C /* CHHeapEnumerator.m */; };
-		B72D852CA599F77F8A1C597B062FF658 /* handleInterceptorThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 69436E594A2782AACF607B4EF26AD3BA /* handleInterceptorThree.m */; };
-		B96B415D588D14E919F3E3E90E06B134 /* COCCodeBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA44C0E5A0CCF3E6F58605F069341A /* COCCodeBlock-dummy.m */; };
+		A2FC017413880EF5BFECAB38639C28BA /* COCCodeBlock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA44C0E5A0CCF3E6F58605F069341A /* COCCodeBlock-dummy.m */; };
+		AD1B0515047B1FA0368A4651E9E8294B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D11FF54D54125E0B59AB47A1AE6EDF5 /* ReplaceMe.m */; };
 		BC6627D8A22CE8EA8A52D3382C1AF48D /* AsyncTestTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E1CF914AB4633A588377098328A99C /* AsyncTestTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C2A006FA24894CC7DE6949665A5F9B /* CusLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ADCB5F7ECFC2ED6FFBD188BCA86168 /* CusLayer.m */; };
 		C56BA6C455C84B5068EAC52F14CCB667 /* CusLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4084C834C3B39B54CAAEDA4F465B9937 /* CusLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4BA28D32D6DAB9FE0C2D811E9A1B0C /* NSObject+ChBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AAC79B0CAC89BBF17984B91A983B99 /* NSObject+ChBlock.m */; };
 		CBC1A0BD261BEB26314296895EB2DD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1EC030D144B694220476B61E20C492D /* ChenKeyFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC546D85BFBAB18AC0FB2CA588827D76 /* ChenKeyFrameAnimation.m */; };
+		D333DBD220EA0660415BF5633C1573EE /* ChenruntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CA69586565EBC77F2956EF73E21083 /* ChenruntimeUtility.m */; };
+		D4AC6EC01C624CB33F04D49DFC2D8DB8 /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E400BBFB8249BB4290E703D202FE5AC /* LayerView.m */; };
 		D8E2B5CDB91F0A9A17AF427B71C96A24 /* ChenTestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FFAF7F633D2D74FD9568D37783DF58B5 /* ChenTestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D900DBA10C19C15ED38E5CB166DE8F55 /* handleInterceptorTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B89607E44516B2EFA78FE8E1EC4D026 /* handleInterceptorTwo.m */; };
-		DBBD5F2B4FACDC1CDEC715B62DB72BD6 /* UIView+ChenPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8FBDBB91EA254C3AF04ECF1830F086 /* UIView+ChenPopAnimation.m */; };
+		DBBD71D3D6DAE8C4440E84EA5A7C61EC /* Interceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC259E530384098F89542ECCBE229F /* Interceptor.m */; };
 		DC0CF8FA4A297EF931496EE66727AFF2 /* Pods-COCCodeBlock_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF76AD536605D7A5B9016FA830542B41 /* Pods-COCCodeBlock_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0623474CE59BDE5BF568A0B3906FDB0 /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E400BBFB8249BB4290E703D202FE5AC /* LayerView.m */; };
-		E111749ACE0001543A02B719E596C552 /* handleInterceptorOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CEC09A7F6763F2637D9BA088409B13 /* handleInterceptorOne.m */; };
 		E3DD90790BD4BDAA3EC5F4535BDD3800 /* TestMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A992E1CBA522B212234107569F1A660 /* TestMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E63AAFE5F603E436D807EC3BF8A4A896 /* Pods-COCCodeBlock_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5767D7A834E18FFEFD5298A3E58EAB9 /* Pods-COCCodeBlock_Tests-dummy.m */; };
-		E7AC3F3487D10A7334341745F871376C /* Interceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC259E530384098F89542ECCBE229F /* Interceptor.m */; };
 		EAADE5764AB751C7A2C8CF72CB78FFE3 /* ClockFace.h in Headers */ = {isa = PBXBuildFile; fileRef = CF08A0E031817EFEE64A1DFE6630E44D /* ClockFace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAFEFC05154CBBEA3F29A67CA86227EA /* ChenObjcSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 30100A0896BE918688569F66D24871DC /* ChenObjcSend.m */; };
 		EBD40CAF44656D865EAA0077EB72036E /* ChenKeyFrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1449680B8911AD2A6239A112C360CA /* ChenKeyFrameAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE97768BE9029C783A00AF7124267BA8 /* ChenObjectRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D699475D053D1D94DBC045B1E71037 /* ChenObjectRef.m */; };
+		F52761C08F52C04F41B8C1FA138E9AB1 /* handleInterceptorOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CEC09A7F6763F2637D9BA088409B13 /* handleInterceptorOne.m */; };
 		F700CDF4E9D8A71C2E3322530E433D39 /* Pods-COCCodeBlock_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBFA322494E5C11AE711CFB8603AFC /* Pods-COCCodeBlock_Example-dummy.m */; };
 		FEA0A2904D04BAA07093D826A3780063 /* NSObject+ChBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 463A8740C9319654A6275A7C18A0454C /* NSObject+ChBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -78,13 +78,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087F8E0CE39FCA825FF6E926FA754F78 /* CHHeapEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHHeapEnumerator.m; sourceTree = "<group>"; };
 		0B89607E44516B2EFA78FE8E1EC4D026 /* handleInterceptorTwo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = handleInterceptorTwo.m; sourceTree = "<group>"; };
 		134541C00731119FBB35ED557B8516F9 /* ClockFace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ClockFace.m; sourceTree = "<group>"; };
 		16ADCB5F7ECFC2ED6FFBD188BCA86168 /* CusLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CusLayer.m; sourceTree = "<group>"; };
 		19269A5ED80580EBABCEC254274CA01C /* handleInterceptorTwo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handleInterceptorTwo.h; sourceTree = "<group>"; };
-		21484BE1047C10859234269A9AB53932 /* ChenObjectRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenObjectRef.h; sourceTree = "<group>"; };
 		28D03F9565A293CC7E48B66103C797B1 /* COCCodeBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = COCCodeBlock.debug.xcconfig; sourceTree = "<group>"; };
+		2BC8747DC86FC0ED411128DC0FCC6EF5 /* ChenruntimeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenruntimeUtility.h; sourceTree = "<group>"; };
 		30100A0896BE918688569F66D24871DC /* ChenObjcSend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenObjcSend.m; sourceTree = "<group>"; };
+		31D699475D053D1D94DBC045B1E71037 /* ChenObjectRef.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenObjectRef.m; sourceTree = "<group>"; };
 		35527D02EB15CE9DFA556F745ECEB181 /* AsyncTestTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AsyncTestTableViewController.m; sourceTree = "<group>"; };
 		3A992E1CBA522B212234107569F1A660 /* TestMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestMacro.h; sourceTree = "<group>"; };
 		3DC0EC488A38F9E6C02F407C5B0A3302 /* TestMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TestMacro.m; sourceTree = "<group>"; };
@@ -92,11 +94,9 @@
 		4139BF6B6E0C70F6B79F85127F148D4E /* Pods_COCCodeBlock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_COCCodeBlock_Example.framework; path = "Pods-COCCodeBlock_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		463A8740C9319654A6275A7C18A0454C /* NSObject+ChBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ChBlock.h"; sourceTree = "<group>"; };
 		476D728945BB3D7A094A66E963B6FBBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		47AA2C07ACF87F45CD1A5DF6057666D6 /* CHHeapEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHHeapEnumerator.h; sourceTree = "<group>"; };
 		4EC630AF594A12EB74C017C55C157B7C /* Pods_COCCodeBlock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_COCCodeBlock_Tests.framework; path = "Pods-COCCodeBlock_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565564F4601A6E9D9CFC6025F86D00B2 /* ChenObjectRef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenObjectRef.h; sourceTree = "<group>"; };
 		595E679ECEA5CFAE448D19636D2C9ABD /* handleInterceptorOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handleInterceptorOne.h; sourceTree = "<group>"; };
-		5AF25626A2953F20C9171FCF3629D9FE /* ChenruntimeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenruntimeUtility.m; sourceTree = "<group>"; };
-		5B9AC3E3E3EB0DBAFEF403BAD16B6B8A /* ChenObjectRef.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ChenObjectRef.mm; sourceTree = "<group>"; };
 		5FA3E6890415D4E4C8012660798797D8 /* COCCodeBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = COCCodeBlock.framework; path = COCCodeBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63414BBB832ADF77174D24D09D4E166F /* Pods-COCCodeBlock_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-COCCodeBlock_Example.modulemap"; sourceTree = "<group>"; };
 		63D010ED9D2CDFB956EEF94014498956 /* Pods-COCCodeBlock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,7 +113,6 @@
 		7E400BBFB8249BB4290E703D202FE5AC /* LayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
 		8A1449680B8911AD2A6239A112C360CA /* ChenKeyFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenKeyFrameAnimation.h; sourceTree = "<group>"; };
 		8BABE6E16E7F8A15925F58AEA79DE1CE /* Pods-COCCodeBlock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C021F2AD60ED7DE355F0338B923633C /* CHHeapEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHHeapEnumerator.m; sourceTree = "<group>"; };
 		915B62E82AD3600DFD23C311E2BFFC93 /* SyncMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SyncMutableDictionary.m; sourceTree = "<group>"; };
 		92FBFA322494E5C11AE711CFB8603AFC /* Pods-COCCodeBlock_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-COCCodeBlock_Example-dummy.m"; sourceTree = "<group>"; };
 		9D11FF54D54125E0B59AB47A1AE6EDF5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = COCCodeBlock/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -121,12 +120,13 @@
 		A0E1CF914AB4633A588377098328A99C /* AsyncTestTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AsyncTestTableViewController.h; sourceTree = "<group>"; };
 		A0E94F628AA0C3EF287B5FD1583FF988 /* handleInterceptorThree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = handleInterceptorThree.h; sourceTree = "<group>"; };
 		A1DC259E530384098F89542ECCBE229F /* Interceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Interceptor.m; sourceTree = "<group>"; };
+		A22192F9B9272496C801406F03154FD6 /* ChenObjcUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenObjcUtility.h; sourceTree = "<group>"; };
 		A260CD9D0EBAC09733AF70260EE9FB0D /* NSObject+PrintRetain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PrintRetain.m"; sourceTree = "<group>"; };
 		A5767D7A834E18FFEFD5298A3E58EAB9 /* Pods-COCCodeBlock_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-COCCodeBlock_Tests-dummy.m"; sourceTree = "<group>"; };
 		A8BD34AD774737873FACB34A934CDC5C /* Pods-COCCodeBlock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AAF361B81AD7E01969D06CB6C66DC0B2 /* Pods-COCCodeBlock_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-COCCodeBlock_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AFF56AC0DC0E53F3AB9BD239ADAE7B7D /* ChenruntimeUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenruntimeUtility.h; sourceTree = "<group>"; };
 		B03D02A516B632CB7207B6D449A2B994 /* ChenTestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenTestOperation.m; sourceTree = "<group>"; };
+		B1CA69586565EBC77F2956EF73E21083 /* ChenruntimeUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenruntimeUtility.m; sourceTree = "<group>"; };
 		B64F9D6055595D40D7629E4A605651C5 /* CustomMacroTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomMacroTool.h; sourceTree = "<group>"; };
 		B86D80AB98EB8C56FEEC3418AA806F93 /* Pods-COCCodeBlock_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-COCCodeBlock_Tests-Info.plist"; sourceTree = "<group>"; };
 		BBA334A6F72F50150AB197E197754EE3 /* SyncMutableDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SyncMutableDictionary.h; sourceTree = "<group>"; };
@@ -134,7 +134,6 @@
 		BF8FBDBB91EA254C3AF04ECF1830F086 /* UIView+ChenPopAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChenPopAnimation.m"; sourceTree = "<group>"; };
 		C1E3EF6F49B97F21BDF7692190628209 /* NSObject+PrintRetain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+PrintRetain.h"; sourceTree = "<group>"; };
 		C2ABABE7D3BBD39CCE5CE29B8CE0D9B7 /* Pods-COCCodeBlock_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-COCCodeBlock_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C6FE643E38521E479D20235E99D7A5DD /* ChenObjcUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChenObjcUtility.m; sourceTree = "<group>"; };
 		CF08A0E031817EFEE64A1DFE6630E44D /* ClockFace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ClockFace.h; sourceTree = "<group>"; };
 		D36372E4016141B6508B94DB6F61A8EA /* Pods-COCCodeBlock_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-COCCodeBlock_Example-Info.plist"; sourceTree = "<group>"; };
 		D659530A4C38899E8E211006D24262DB /* Interceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Interceptor.h; sourceTree = "<group>"; };
@@ -142,13 +141,14 @@
 		DAFC386B7F28EB6CF678A76EE87B8C44 /* Pods-COCCodeBlock_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-COCCodeBlock_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DBFA44C0E5A0CCF3E6F58605F069341A /* COCCodeBlock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "COCCodeBlock-dummy.m"; sourceTree = "<group>"; };
 		DF76AD536605D7A5B9016FA830542B41 /* Pods-COCCodeBlock_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-COCCodeBlock_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ChenObjcUtility.mm; sourceTree = "<group>"; };
 		E109239098999635EE112DC3578F1251 /* COCCodeBlock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = COCCodeBlock.modulemap; sourceTree = "<group>"; };
 		E70B6BD58C2D5D08100F29D67E39ED67 /* COCCodeBlock.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = COCCodeBlock.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E70CD4784264D74151D33CA2B0FD715C /* Pods-COCCodeBlock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-COCCodeBlock_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ECB325E51064DED1698379463CFFEDC3 /* COCCodeBlock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "COCCodeBlock-Info.plist"; sourceTree = "<group>"; };
-		F146B7DE8DD24BF104E5419AF617C045 /* ChenObjcUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenObjcUtility.h; sourceTree = "<group>"; };
 		F32EE9E64B3A24B8D10453F0BC591ED5 /* COCCodeBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = COCCodeBlock.release.xcconfig; sourceTree = "<group>"; };
 		F814970111DAE8AC2D26139221233868 /* LayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LayerView.h; sourceTree = "<group>"; };
+		F964F4440982DFD051066956C81571C2 /* CHHeapEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHHeapEnumerator.h; sourceTree = "<group>"; };
 		FA07D7AF5FA8040451BF579E8B59C6FB /* COCCodeBlock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "COCCodeBlock-prefix.pch"; sourceTree = "<group>"; };
 		FCF55973F206722FDFA77553F73B750E /* Pods-COCCodeBlock_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-COCCodeBlock_Example-umbrella.h"; sourceTree = "<group>"; };
 		FFAF7F633D2D74FD9568D37783DF58B5 /* ChenTestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChenTestOperation.h; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 				EF2E7AD05FEA21C0ECA2C6B5FE08195C /* ChenNSOperation */,
 				17549E1CD13EB893EA6372D7FAFF8B57 /* Interceptor */,
 				2300B03FF0E7F87EB5617AF26441357E /* Macro */,
-				F4C5780A8F6D27758CA9BFC799F1C4A0 /* MemoryGraph */,
+				A3764A50D5E6C833A9DC36A48B9F063E /* MemoryGraph */,
 				582164A55F41A1FE74F92988DEA864FC /* objc_msgsend */,
 				7EE84B238DAECBA7A7B6040E33B2E99A /* ObjectRetain */,
 				A2402E43170C01F02B342310A7731907 /* Pod */,
@@ -312,18 +312,6 @@
 			path = "Example/Pods/Target Support Files/COCCodeBlock";
 			sourceTree = "<group>";
 		};
-		86912E570571B819147426BD39AB3F6F /* util */ = {
-			isa = PBXGroup;
-			children = (
-				F146B7DE8DD24BF104E5419AF617C045 /* ChenObjcUtility.h */,
-				C6FE643E38521E479D20235E99D7A5DD /* ChenObjcUtility.m */,
-				AFF56AC0DC0E53F3AB9BD239ADAE7B7D /* ChenruntimeUtility.h */,
-				5AF25626A2953F20C9171FCF3629D9FE /* ChenruntimeUtility.m */,
-			);
-			name = util;
-			path = util;
-			sourceTree = "<group>";
-		};
 		86F484DA487180B1BF93E48463F8D952 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,6 +338,19 @@
 				476D728945BB3D7A094A66E963B6FBBA /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A3764A50D5E6C833A9DC36A48B9F063E /* MemoryGraph */ = {
+			isa = PBXGroup;
+			children = (
+				565564F4601A6E9D9CFC6025F86D00B2 /* ChenObjectRef.h */,
+				31D699475D053D1D94DBC045B1E71037 /* ChenObjectRef.m */,
+				F964F4440982DFD051066956C81571C2 /* CHHeapEnumerator.h */,
+				087F8E0CE39FCA825FF6E926FA754F78 /* CHHeapEnumerator.m */,
+				DC1DBBA83FEA55AB1B585D600FED6FC1 /* util */,
+			);
+			name = MemoryGraph;
+			path = COCCodeBlock/Classes/MemoryGraph;
 			sourceTree = "<group>";
 		};
 		A9CE664A79A75F0EF536808F380A96FD /* SyncMutableDictionary */ = {
@@ -407,6 +408,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC1DBBA83FEA55AB1B585D600FED6FC1 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				A22192F9B9272496C801406F03154FD6 /* ChenObjcUtility.h */,
+				E08577A1FDFBC83075C05C810B0758CF /* ChenObjcUtility.mm */,
+				2BC8747DC86FC0ED411128DC0FCC6EF5 /* ChenruntimeUtility.h */,
+				B1CA69586565EBC77F2956EF73E21083 /* ChenruntimeUtility.m */,
+			);
+			name = util;
+			path = util;
+			sourceTree = "<group>";
+		};
 		DF8834CF35DCF07925097F7AA1B5F818 /* Pods-COCCodeBlock_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,19 +461,6 @@
 			);
 			name = "Pods-COCCodeBlock_Example";
 			path = "Target Support Files/Pods-COCCodeBlock_Example";
-			sourceTree = "<group>";
-		};
-		F4C5780A8F6D27758CA9BFC799F1C4A0 /* MemoryGraph */ = {
-			isa = PBXGroup;
-			children = (
-				21484BE1047C10859234269A9AB53932 /* ChenObjectRef.h */,
-				5B9AC3E3E3EB0DBAFEF403BAD16B6B8A /* ChenObjectRef.mm */,
-				47AA2C07ACF87F45CD1A5DF6057666D6 /* CHHeapEnumerator.h */,
-				8C021F2AD60ED7DE355F0338B923633C /* CHHeapEnumerator.m */,
-				86912E570571B819147426BD39AB3F6F /* util */,
-			);
-			name = MemoryGraph;
-			path = COCCodeBlock/Classes/MemoryGraph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,7 +538,7 @@
 			buildConfigurationList = A48FCD12B5E6E945079F0A856961D2E0 /* Build configuration list for PBXNativeTarget "COCCodeBlock" */;
 			buildPhases = (
 				2DB2FE74DBFDCBA41F45474CC1E2721D /* Headers */,
-				335CEC8449DACCB4E14105AC1E6583AE /* Sources */,
+				7A2AB23FEF9B72EB457F3717659CEEB7 /* Sources */,
 				E3610FF29B7D3DF1566257B1D0E01F4E /* Frameworks */,
 				3463130C5B48EC370B5E11610B33FC0C /* Resources */,
 			);
@@ -624,35 +624,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		335CEC8449DACCB4E14105AC1E6583AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				759D805FC776C53DEA7B52E4D9841A19 /* AsyncTestTableViewController.m in Sources */,
-				11F66CE83230DE1766A9A94755785D2C /* ChenKeyFrameAnimation.m in Sources */,
-				1048451B26D69DB73C98C972EDA80597 /* ChenObjcSend.m in Sources */,
-				74DFFA1192CA917DDD5AF497FB8CEAAE /* ChenObjcUtility.m in Sources */,
-				89921B1275C9A96D6C32457686AF9B9B /* ChenObjectRef.mm in Sources */,
-				8B60DA55BA82549447C8DEE3F5295D71 /* ChenruntimeUtility.m in Sources */,
-				9479C7011CA5A5FFB24D9979C9205FC1 /* ChenTestOperation.m in Sources */,
-				B22B053053BACE6F8A124ABDC98D9675 /* CHHeapEnumerator.m in Sources */,
-				582C746DB0BC8DDF9417B1C4D336C588 /* ClockFace.m in Sources */,
-				B96B415D588D14E919F3E3E90E06B134 /* COCCodeBlock-dummy.m in Sources */,
-				9BDBB82C8C3B79DAB47823CCA19940D5 /* CusLayer.m in Sources */,
-				E111749ACE0001543A02B719E596C552 /* handleInterceptorOne.m in Sources */,
-				B72D852CA599F77F8A1C597B062FF658 /* handleInterceptorThree.m in Sources */,
-				D900DBA10C19C15ED38E5CB166DE8F55 /* handleInterceptorTwo.m in Sources */,
-				E7AC3F3487D10A7334341745F871376C /* Interceptor.m in Sources */,
-				E0623474CE59BDE5BF568A0B3906FDB0 /* LayerView.m in Sources */,
-				49188BB0C81081089A15A57D8CD3CA65 /* NSObject+ChBlock.m in Sources */,
-				A4926C9100BD1DC79CD6B1B9914352E9 /* NSObject+PrintRetain.m in Sources */,
-				96E5A760C6EE9E21F320EE360CB7DFCD /* ReplaceMe.m in Sources */,
-				A20D6A48FA704D02D5907B3BB0133265 /* SyncMutableDictionary.m in Sources */,
-				A15D89FC71CEC26C99D09100635A0974 /* TestMacro.m in Sources */,
-				DBBD5F2B4FACDC1CDEC715B62DB72BD6 /* UIView+ChenPopAnimation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6289546A0A4DF152049970B1D72EB188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -666,6 +637,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63AAFE5F603E436D807EC3BF8A4A896 /* Pods-COCCodeBlock_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2AB23FEF9B72EB457F3717659CEEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AC73C25B794D91586838D16E77C3F8 /* AsyncTestTableViewController.m in Sources */,
+				D1EC030D144B694220476B61E20C492D /* ChenKeyFrameAnimation.m in Sources */,
+				EAFEFC05154CBBEA3F29A67CA86227EA /* ChenObjcSend.m in Sources */,
+				34DF24D12E6417E82F64BECE31C94836 /* ChenObjcUtility.mm in Sources */,
+				EE97768BE9029C783A00AF7124267BA8 /* ChenObjectRef.m in Sources */,
+				D333DBD220EA0660415BF5633C1573EE /* ChenruntimeUtility.m in Sources */,
+				89B20B402F506EE51FF50171F8B9DFB1 /* ChenTestOperation.m in Sources */,
+				24C1BE6042A2FFF4BB9294AA7C4FC664 /* CHHeapEnumerator.m in Sources */,
+				730497AAD8A0A73955CF3DD581C781D0 /* ClockFace.m in Sources */,
+				A2FC017413880EF5BFECAB38639C28BA /* COCCodeBlock-dummy.m in Sources */,
+				C0C2A006FA24894CC7DE6949665A5F9B /* CusLayer.m in Sources */,
+				F52761C08F52C04F41B8C1FA138E9AB1 /* handleInterceptorOne.m in Sources */,
+				4E7ECFEDDDD6AD66DF9BB9ABDAC77CF4 /* handleInterceptorThree.m in Sources */,
+				1159F2CF8BE078420E954DAF3DF49DA5 /* handleInterceptorTwo.m in Sources */,
+				DBBD71D3D6DAE8C4440E84EA5A7C61EC /* Interceptor.m in Sources */,
+				D4AC6EC01C624CB33F04D49DFC2D8DB8 /* LayerView.m in Sources */,
+				CB4BA28D32D6DAB9FE0C2D811E9A1B0C /* NSObject+ChBlock.m in Sources */,
+				05EC49FA42C987882BAC8C4BD73A0F11 /* NSObject+PrintRetain.m in Sources */,
+				AD1B0515047B1FA0368A4651E9E8294B /* ReplaceMe.m in Sources */,
+				552D2E1119F5D953933040B1749396E4 /* SyncMutableDictionary.m in Sources */,
+				54F0793847CB2AE498D84DC2F6D6A5D0 /* TestMacro.m in Sources */,
+				38FA4343C3C49C73FADCB19FF7CC5467 /* UIView+ChenPopAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
