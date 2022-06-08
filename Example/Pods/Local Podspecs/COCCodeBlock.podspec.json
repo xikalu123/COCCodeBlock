@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "COCCodeBlock/Classes/**/*",
+  "source_files": "COCCodeBlock/Classes/**/*.{h,c,m,mm}",
   "libraries": "stdc++",
   "xcconfig": {
     "CLANG_CXX_LANGUAGE_STANDARD": "gnu++11"
