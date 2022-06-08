@@ -107,7 +107,7 @@ static void range_callback(task_t task, void *context, unsigned type, vm_range_t
     [CHHeapEnumerator enumerateLiveObjectsWithBlock:^(__unsafe_unretained id  _Nonnull object, __unsafe_unretained Class  _Nonnull actualClass) {
         
         // Skip known-invalid objects
-        if (!ChenPointerIsValidObjcObject((__bridge void *)object)) {
+        if (!FLEXPointerIsValidObjcObject((__bridge void *)object)) {
             return;
         }
     }];

@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'COCCodeBlock/Classes/**/*'
+  s.library = 'stdc++'
+  s.xcconfig = {
+       'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++11',
+  }
   
   # s.resource_bundles = {
   #   'COCCodeBlock' => ['COCCodeBlock/Assets/*.png']

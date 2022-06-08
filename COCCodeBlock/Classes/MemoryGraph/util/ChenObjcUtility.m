@@ -30,13 +30,8 @@
 /////////////////////
 // objc-internal.h //
 /////////////////////
-///
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-    
-
+#if OBJC_HAVE_TAGGED_POINTERS
 
 ///////////////////
 // objc-object.h //
@@ -45,19 +40,20 @@ extern "C" {
 ////////////////////////////////////////////////
 // originally objc_object::isExtTaggedPointer //
 ////////////////////////////////////////////////
-NS_INLINE BOOL chen_isExtTaggedPointer(const void *ptr)  {
+NS_INLINE BOOL flex_isExtTaggedPointer(const void *ptr)  {
     return ((uintptr_t)ptr & _OBJC_TAG_EXT_MASK) == _OBJC_TAG_EXT_MASK;
 }
 
+#endif // OBJC_HAVE_TAGGED_POINTERS
 
 /////////////////////////////////////
-// ChenObjectInternal              //
+// FLEXObjectInternal              //
 // No Apple code beyond this point //
 /////////////////////////////////////
 
+extern "C" {
 
-
-BOOL ChenPointerIsReadable(const void *inPtr) {
+BOOL FLEXPointerIsReadable(const void *inPtr) {
     kern_return_t error = KERN_SUCCESS;
 
     vm_size_t vmsize;
@@ -108,7 +104,7 @@ BOOL ChenPointerIsReadable(const void *inPtr) {
 
 /// Accepts addresses that may or may not be readable.
 /// https://blog.timac.org/2016/1124-testing-if-an-arbitrary-pointer-is-a-valid-objective-c-object/
-BOOL ChenPointerIsValidObjcObject(const void *ptr) {
+BOOL FLEXPointerIsValidObjcObject(const void *ptr) {
     uintptr_t pointer = (uintptr_t)ptr;
 
     if (!ptr) {
@@ -118,7 +114,7 @@ BOOL ChenPointerIsValidObjcObject(const void *ptr) {
 #if OBJC_HAVE_TAGGED_POINTERS
     // Tagged pointers have 0x1 set, no other valid pointers do
     // objc-internal.h -> _objc_isTaggedPointer()
-    if (chen_isTaggedPointer(ptr) || chen_isExtTaggedPointer(ptr)) {
+    if (flex_isTaggedPointer(ptr) || flex_isExtTaggedPointer(ptr)) {
         return YES;
     }
 #endif
@@ -137,7 +133,7 @@ BOOL ChenPointerIsValidObjcObject(const void *ptr) {
     }
 
     // Make sure dereferencing this address won't crash
-    if (!ChenPointerIsReadable(ptr)) {
+    if (!FLEXPointerIsReadable(ptr)) {
         return NO;
     }
 
@@ -145,7 +141,7 @@ BOOL ChenPointerIsValidObjcObject(const void *ptr) {
     // We check if the returned class is readable because object_getClass
     // can return a garbage value when given a non-nil pointer to a non-object
     Class cls = object_getClass((__bridge id)ptr);
-    if (!cls || !ChenPointerIsReadable((__bridge void *)cls)) {
+    if (!cls || !FLEXPointerIsReadable((__bridge void *)cls)) {
         return NO;
     }
     
@@ -156,7 +152,7 @@ BOOL ChenPointerIsValidObjcObject(const void *ptr) {
     // be readable itself. For the time being there is no way to access it
     // to check here, and I have yet to hard-code a solution.
     Class metaclass = object_getClass(cls);
-    if (!metaclass || !ChenPointerIsReadable((__bridge void *)metaclass)) {
+    if (!metaclass || !FLEXPointerIsReadable((__bridge void *)metaclass)) {
         return NO;
     }
     
@@ -173,7 +169,6 @@ BOOL ChenPointerIsValidObjcObject(const void *ptr) {
 
     return YES;
 }
-    
-#ifdef __cplusplus
-}
-#endif
+
+
+} // End extern "C"
