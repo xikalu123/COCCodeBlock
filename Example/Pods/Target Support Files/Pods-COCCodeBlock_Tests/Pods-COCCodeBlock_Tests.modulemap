@@ -1,0 +1,6 @@
+framework module Pods_COCCodeBlock_Tests {
+  umbrella header "Pods-COCCodeBlock_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

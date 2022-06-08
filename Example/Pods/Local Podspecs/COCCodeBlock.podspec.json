@@ -1,0 +1,22 @@
+{
+  "name": "COCCodeBlock",
+  "version": "0.1.0",
+  "summary": "A short description of COCCodeBlock.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenyuliang/COCCodeBlock",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenyuliang": "chenyuliang@didichuxing.com"
+  },
+  "source": {
+    "git": "https://github.com/chenyuliang/COCCodeBlock.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "COCCodeBlock/Classes/**/*"
+}

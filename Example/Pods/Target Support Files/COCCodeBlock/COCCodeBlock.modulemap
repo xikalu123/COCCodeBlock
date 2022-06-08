@@ -1,0 +1,6 @@
+framework module COCCodeBlock {
+  umbrella header "COCCodeBlock-umbrella.h"
+
+  export *
+  module * { export * }
+}

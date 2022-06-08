@@ -1,0 +1,16 @@
+PODS:
+  - COCCodeBlock (0.1.0)
+
+DEPENDENCIES:
+  - COCCodeBlock (from `../`)
+
+EXTERNAL SOURCES:
+  COCCodeBlock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  COCCodeBlock: 6f9f9b3d150883c3abfcc4b282673f5a564743c9
+
+PODFILE CHECKSUM: f4bbae5c890493a2e6cc82eaa28fcbdf1dcb32cc
+
+COCOAPODS: 1.10.1
