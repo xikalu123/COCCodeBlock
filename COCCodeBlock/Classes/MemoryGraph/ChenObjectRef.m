@@ -39,13 +39,13 @@
             _retainer = object;
         }
         
-        NSString *class = [ChenruntimeUtility safeClassNameForObject:object];
-        if (ivar) {
-            _reference = [NSString stringWithFormat:@"%@ --- %@",class,ivar];
+        NSString *safeClass = [ChenruntimeUtility safeClassNameForObject:object];
+        if (ivar && ivar.length) {
+            _reference = [NSString stringWithFormat:@"%@ --- %@",safeClass,ivar];
         }else if (showSummary){
-            _reference = [NSString stringWithFormat:@"%@ --- %@",class,object];
+            _reference = [NSString stringWithFormat:@"%@ --- %@",safeClass,object];
         }else {
-            _reference = class;
+            _reference = safeClass;
         }
     }
     
