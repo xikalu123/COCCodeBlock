@@ -91,13 +91,53 @@ static void range_callback(task_t task, void *context, unsigned type, vm_range_t
         CFSetRemoveAllValues(registeredClasses);
     }
     
+    NSMutableArray *clss = [NSMutableArray new];
+    
     unsigned int count = 0;
     Class *classes = objc_copyClassList(&count);
     for (unsigned int i = 0; i<count; i++) {
+        if ([self registeredBlackClasses:classes[i]]) {
+            continue;
+        }
+        NSString *clsStr = NSStringFromClass(classes[i]);
+        NSBundle *bundle1 = [NSBundle bundleForClass:classes[i]];
+        if (bundle1 == [NSBundle mainBundle]) {
+            [clss addObject:clsStr];
+        }
+
+//        printf("Class---------: %s\n", object_getClassName(classes[i]));
         CFSetAddValue(registeredClasses, (__bridge const void *)(classes[i]));
     }
-    
+    [clss sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+        return [obj1 compare:obj2 options:NSLiteralSearch];
+    }];
+    [clss enumerateObjectsUsingBlock:^(NSString*  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        printf("Class---------: %s\n", [obj UTF8String]);
+    }];
+
     free(classes);
+}
+
+
++ (BOOL)registeredBlackClasses:(Class)class {
+    char *classStr = object_getClassName(class);
+    if (strcmp("_NSZombie_", classStr) == 0)  {
+        return YES;
+    }
+    
+    if (strstr(classStr, "OS_") == classStr) { //os系统内核类 忽略
+        return YES;
+    }
+    
+    if (strstr(classStr, "PodsDummy_") == classStr) { // pod类
+        return YES;
+    }
+    
+    if (strstr(classStr, "GMS") == classStr) { // Google地图类
+        return YES;
+    }
+    
+    return NO;
 }
 
 #pragma mark - Methods
