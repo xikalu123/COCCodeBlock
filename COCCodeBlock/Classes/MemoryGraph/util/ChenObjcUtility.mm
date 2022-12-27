@@ -103,6 +103,7 @@ BOOL ChenPointerIsReadable(const void *inPtr) {
 }
 
 /// Accepts addresses that may or may not be readable.
+/// 中文翻译：https://zhuanlan.zhihu.com/p/336710775
 /// https://blog.timac.org/2016/1124-testing-if-an-arbitrary-pointer-is-a-valid-objective-c-object/
 BOOL ChenPointerIsValidObjcObject(const void *ptr) {
     uintptr_t pointer = (uintptr_t)ptr;
